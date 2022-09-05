@@ -1,0 +1,81 @@
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(45deg, #0edf19, #ff61fe);
+  height: 100vh;
+}
+
+.container {
+  box-shadow: 1px 1px 3px rgba(0,0,0,.3),
+  -1px -1px 3px rgba(0,0,0,.3);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.container h3 {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-bottom: 8px;
+}
+
+.container table {
+  margin-bottom: 20px;
+}
+th, td {
+  border: .5px solid black;
+  padding: 5px 2px;
+}
+td span {
+  background: red;
+  padding: 2px;
+  border-radius: 20%;
+  box-shadow: .2px .2px 3px black;
+}
+
+thead th {
+  background-color: #ff9f25;
+}
+tbody tr {
+  background: white;
+}
+tbody tr:nth-child(odd) {
+  background: #a9eeff;
+}
+tbody tr:last-child {
+  background: #d3ff00ea;
+}
+.container ol {
+  list-style: none;
+}
+ol li {
+  background: white;
+  text-align: right;
+  margin-bottom: 3px;
+  border-radius: 15px;
+  box-shadow: .3px .3px 2px black;
+  padding: 10px 20px;
+}
+ol li:nth-child(even) {
+  background: #ffe769;
+}
+
+li span:first-child {
+  float: left;
+}
+li span:last-child {
+  box-shadow: .2px .2px 3px black;
+  border-radius: 50%;
+  padding: 1px 5px;
+  background: #2dfa28;
+}
+li span:nth-child(2) {
+  margin-right: 25px;
+}
+li span {
+  text-transform: uppercase;
+  font-weight: 900;
+}
